@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    padding: 20px 16px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 11px;
+    color: black;
+    background: linear-gradient(135deg, #e0e7ff, #f5f3ff);
+    min-height: 100vh;
+}
+
+h2 {
+    display: block;
+    max-width: 650px;
+    margin: 0 auto 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #4f46e5;
+}
+
+form {
+    width: 638px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(79, 70, 229, 0.15);
+}
+
+p {
+    margin: 0 0 8px;
+}
+
+h3 {
+    color: red;
+    font-size: 16px;
+    margin: 12px 0 2px;
+}
+
+label {
+    float: left;
+    width: 190px;
+    margin-right: 4px;
+    text-align: right;
+    font-weight: bold;
+}
+
+br {
+    clear: both;
+}
+
+br + br,
+label + br {
+    display: none;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 200px;
+    height: 17px;
+    padding: 0 2px;
+    border: 1px solid #aaa;
+    background-color: white;
+}
+
+select {
+    height: 17px;
+    padding: 0;
+    font-size: 11px;
+}
+
+select[name="country"] {
+    width: 250px;
+}
+
+small {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+label small {
+    display: block;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    margin: 1px 2px 1px 0;
+    vertical-align: middle;
+}
+
+label[for="other_amount"] {
+    width: 290px;
+}
+
+input[name="other_amount"] {
+    width: 150px;
+}
+
+label[for="monthly_amount"] {
+    float: none;
+    display: inline-block;
+    width: auto;
+    margin-left: 194px;
+    font-weight: normal;
+}
+
+label[for="months"] {
+    float: none;
+    width: auto;
+    font-weight: normal;
+}
+
+input[name="monthly_amount"],
+input[name="months"] {
+    width: 40px;
+}
+
+input[name="honor_type"][value="memory"],
+input[name="contact_mail"],
+input[name="contact_phone"],
+input[name="contact_fax"],
+input[name="newsletter_email"],
+input[name="newsletter_mail"] {
+    margin-left: 194px;
+}
+
+form > small:first-of-type {
+    float: left;
+    width: 190px;
+    margin-left: -194px;
+    margin-top: 12px;
+    text-align: right;
+}
+
+form > small:first-of-type + br {
+    display: none;
+}
+
+textarea {
+    width: 290px;
+    height: 60px;
+    padding: 2px;
+    border: 1px solid #aaa;
+    background-color: white;
+    vertical-align: top;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    padding: 1px 8px;
+    font-size: 11px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    margin: 6px 0 12px 150px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
