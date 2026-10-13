@@ -1,0 +1,131 @@
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Element selectors */
+body {
+    margin: 0;
+    padding-top: 65px;
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #f2f2f2;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Group selector */
+h1,
+h2 {
+    color: #254b87;
+}
+
+/* ID selector */
+#navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+    background-color: #254b87;
+    text-align: center;
+    z-index: 1000;
+}
+
+#navigation a {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Hover color */
+#navigation a:hover {
+    color: yellow;
+}
+
+a {
+    color: #254b87;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Class selector */
+.section {
+    width: 90%;
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #bbb;
+    background-color: white;
+    scroll-margin-top: 75px;
+}
+
+#about {
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #bbb;
+    margin: 20px auto;
+}
+
+img {
+    display: block;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+th {
+    background-color: #e0e8f5;
+}
+
+fieldset {
+    padding: 20px;
+    border: 1px solid #888;
+}
+
+legend {
+    color: #254b87;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 18px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+}
